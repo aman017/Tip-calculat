@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tip calculator</title>
+</head>
+
+<body>
+    <center>
+        <div>
+            <h1>
+                Tip Calculator
+            </h1>
+        </div>
+        <br>
+        <div>
+            <h2>
+                Bill Amount :
+            </h2><input type="number" id="rs" placeholder="Enter Bill Amount">
+            <!-- <br> -->
+            <select id ="per"name="Select the options">
+                <option value="0" disabled selected>--choose a option--</option>
+                <option value="2">Ok- 2%</option>
+                <option value="5">Good- 5%</option>
+                <option value="10">VeryGood- 10%</option>
+            </select>
+            <br><br><br>
+            <button onclick=calculate()>Calculate</button>
+            <div id="show">
+
+            </div>
+
+        </div>
+
+    </center>
+    <script src="index.js"></script>
+</body>
+
+</html>
